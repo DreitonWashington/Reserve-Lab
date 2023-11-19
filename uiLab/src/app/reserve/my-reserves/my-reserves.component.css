@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+.allReserves {
+  width: 76vw;
+  margin: 0 auto;
+}
+.view-reserves {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.title-reserves {
+  margin-top: 4.9rem;
+  margin-left: 6rem;
+}
+.mdc-data-table__cell, .mdc-data-table__header-cell {
+  padding: 0px 10px 0 10px!important;
+}

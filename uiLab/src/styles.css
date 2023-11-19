@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; font-size: 62.5%; background-color: var(--primary-color);}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+  --primary-color: #f3f6f9;
+  --second-color: #fff;
+}
+
+.root{
+  display: flex;
+  width: auto;
+}
+
+app-all-reserves, app-all-labs, app-my-reserves{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hidden{visibility: hidden;}
+

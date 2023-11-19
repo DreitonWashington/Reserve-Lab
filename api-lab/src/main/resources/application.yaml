@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/fac
+    username: fac
+    password: post
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwtSecret: 6Mndg7LdgQ2SKIscOIOuhXXQSoxjZvnneBowOMnvL38FgeHk2QkWZLjQygypNDvzP0EaaIBn6AwVM8dqZCPDSiMJwV6WmBAqUmcQhZA1evj9dZAzXpKKTGBRwi106X4qctTv5zKZuhExnbGowQbs0fV5zhO8fdYt8VxkO2tLihYQDZMwn51xuu5BZnVAeV5RDIQSJY3tLLbcQq4m8auZrDreCgnh36BgxctVKsKFH2KbL7AuTWYLDHLad11ysTcTKOgoA9RY887tcMJ8z4e0wi0wbgV5erJmtOs0JCAU3e4nwN5K0WuO6qi5MIQr5n5iGxsAiEVFtvTXsY1kpjBn2cGGK4DRtzgTnhXwvCdDUXxAS4IBXJxmu0C1GOy74G6vZVjirIVzhCsnYpm1lIKgnDKu9Zr4ngmlhOrsY8YUvUibuyemRQuphCkHosCdlZFZCWYMPpDyt8QHRFArNIP21cs8cCpJa3BPlBhtfB3G2MitG5qYfmX7DlDiwS0z0o1h
+jwtExpirationMs: 14400000
+
+#logging:
+#  level:
+#    org:
+#      springframework: debug

@@ -1,0 +1,71 @@
+.side-menu{
+  width: 25rem;
+  height: 100vh;
+  background-color: var(--second-color);
+}
+h1 {
+  font-size: 36px;
+  color: #212121;
+  padding-top: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* User Info */
+.user-info{
+  display: flex;
+  align-items: center;
+  padding: 3rem 1rem 1rem 0;
+  justify-content: space-between;
+}
+
+.welcome{
+  margin-right: 6rem;
+  width: 92px;
+  height: 40px;
+}
+.w-1{
+  margin: 0;
+  font-size: 12px;
+}
+.username{
+  margin: 0;
+  font-size: 20px;
+}
+
+.img-user-menu{
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  border-radius: 5rem;
+  overflow: hidden;
+  margin: 0 1rem;
+}
+
+.img-user-menu ~ p{
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+/*------------*/
+
+.option-menu{
+  width: 23rem;
+  height: 4rem;
+  background-color: var(--second-color);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  margin: 1rem 1rem;
+  color: #212121;
+}
+.option-menu:hover, .active{
+  background-color: #94b5eb40;
+  color: #212121;
+  border-radius: 10px;
+}

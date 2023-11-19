@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="fix-content">
+    <form [formGroup]="form" class="form-label">
+    <input type="hidden" name="url">
+      <h1 class="title" >Login</h1>
+      <div class="single-input">
+        <input required type="text" formControlName="username" id="username" class="input" autocomplete="off">
+        <label class="form-label" for="username">Username</label>
+      </div>
+      <div class="single-input">
+        <input required type="password" formControlName="password" id="password" class="input">
+        <label class="form-label" for="password">Password</label>
+      </div>
+
+      <div class="button-login">
+        <button type="submit" (click)="login()">Login</button>
+      </div>
+    </form>
+    <p style="display: flex; color: red; justify-content: center;">{{msg}}</p>					
+  </div>
+</div>

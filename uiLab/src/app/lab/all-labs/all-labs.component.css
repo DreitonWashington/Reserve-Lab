@@ -1,0 +1,20 @@
+.body {
+  display: flex;
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+.allLabs {
+  width: 76vw;
+  margin: 0 auto;
+}
+.view-labs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.title-labs {
+  margin-top: 4.9rem;
+  margin-left: 6rem
+}
