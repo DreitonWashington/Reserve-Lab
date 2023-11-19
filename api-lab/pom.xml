@@ -66,6 +66,11 @@
             <version>0.8.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>spring-mock-mvc</artifactId>
+            <scope>test</scope>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/net.kaczmarzyk/specification-arg-resolver -->
         <dependency>
             <groupId>net.kaczmarzyk</groupId>
